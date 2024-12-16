@@ -13,7 +13,7 @@ Policy is one of the most important factors and forms the basis of interoperabil
 | **POL\#4** | **Open Data** : Organizations should ensure that the non-commercial Earth Observation data is proactively made freely available for use, reuse and redistribute to users along with its guide in human and machine readable form |
 | **POL\#5** | **Open Source Software:** Provide users with Open Source Software, which demonstrates use of standards to access your data and services. |
 | **POL\#6** | **Open Science:** Promote concept of open science for collaborative development. Open Science ensures availability of the state-of-the-art algorithms and software providing consistent products from different data providers. |
-| **POL\#7** |  |
+| **POL\#7** | **CEOS Best Practices:**  Ensure your organization complies with the CEOS Best Practices to pursue and facilitate Interoperability.  |
 
 
 ***
