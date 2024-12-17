@@ -13,15 +13,15 @@ Question (YC): what is the expected granularity of a recommendation ? Each time 
 | **DISC\#2** | Service and tool discovery interfaces should comply with [CEOS Service Discovery Best Practice](https://ceos.org/document_management/Working_Groups/WGISS/Documents/WGISS%20Best%20Practices/CEOS-Service-Discovery-Best-Practices_V1.1.pdf). |
 | **DISC\#3** | Collection and granule metadata obtained via the discovery interfaces should advertise the existence of the corresponding file-level online data access and subfile or pixel-based access services and endpoints (e.g. OGC WCS, WMTS, WCPS, OGC API Maps, OGC API Tiles, etc.). |
 | **DISC\#4** | Collection and granule metadata obtained via the discovery interfaces should advertise the existence of the corresponding authentication endpoint for access to the data (if any). |
-| **DISC\#5** |  |
-| **DISC\#6** |  |
+| **DISC\#5** | Resource metadata including keywords shall link each of the keywords to the appropriate thesaurus. |
+| **DISC\#6** | Resource metadata shall include the Persistent Identifier (e.g. DOI) of the corresponding resource (if available).   See also [CEOS Persistent Identifier Best Practices](https://ceos.org/document_management/Working_Groups/WGISS/Documents/WGISS%20Best%20Practices/CEOS%20Persistent%20Identifier%20Best%20Practice.pdf).|
 
 ## Data Access
 | **ID** | **Recommendations** |
 | :---- | :---- |
-| **DACC\#1** |  Granules should be accessible for access in the cloud via the S3 (Simple Storage Service) protocol. |
+| **DACC\#1** |  Granule data stored in the cloud should be accessible via the S3 (Simple Storage Service) and HTTP(S) protocols. |
 | **DACC\#2** |  Data access should support file-level access and subfile or pixel-based access.|
-| **DACC\#3** |  |
+| **DACC\#3** |  Data download interfaces over HTTP should support [`Range Requests`](https://en.wikipedia.org/wiki/Byte_serving) to allow clients to request a portion of a file.  Typical use case: access to a portion of a [Cloud-Optimized GeoTIFF (COG)](https://en.wikipedia.org/wiki/GeoTIFF) file.|
 | **DACC\#4** |  |
 | **DACC\#5** |  |
 
