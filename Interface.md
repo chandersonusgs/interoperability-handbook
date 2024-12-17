@@ -17,6 +17,8 @@ Question (YC): what is the expected granularity of a recommendation ? Each time 
 | **DISC\#6** | Resource metadata including keywords should link each keyword to its HTTP URI and to the appropriate thesaurus (i.e. controlled vocabularies). |
 | **DISC\#7** | Keywords from controlled vocabularies that allow lookup of keyword information via [Linked Data principles](https://en.wikipedia.org/wiki/Linked_data), e.g. HTTP URI dereferencing or SPARQL interfaces are preferred. The use of GCMD controlled keywords is encouraged.|
 | **DISC\#8** | Resource metadata shall include the Persistent Identifier (e.g. DOI) of the corresponding resource (if available).   See also [CEOS Persistent Identifier Best Practices](https://ceos.org/document_management/Working_Groups/WGISS/Documents/WGISS%20Best%20Practices/CEOS%20Persistent%20Identifier%20Best%20Practice.pdf).|
+| **DISC\#9** | Collection metadata should refer to quality information about the collection, e.g. expressed as [WGISS Data Management and Stewardship Maturity Matrix](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/WGISS%20Data%20Management%20and%20Stewardship%20Maturity%20Matrix.pdf).|
+
 
 ## Data Access
 | **ID** | **Recommendations** |
