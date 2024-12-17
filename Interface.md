@@ -12,19 +12,21 @@ Question (YC): what is the expected granularity of a recommendation ? Each time 
 | **DISC\#1** | Collection and granule discovery interfaces should comply with the [CEOS STAC Collection and Granule Discovery Best Practices](https://github.com/ceos-org/stac-collection-and-granule-discovery-best-practices/tree/v1.0.0) (preferred) or [CEOS OpenSearch Best Practices](https://ceos.org/document_management/Working_Groups/WGISS/Documents/WGISS%20Best%20Practices/CEOS%20OpenSearch%20Best%20Practice.pdf). |
 | **DISC\#2** | Service and tool discovery interfaces should comply with [CEOS Service Discovery Best Practice](https://ceos.org/document_management/Working_Groups/WGISS/Documents/WGISS%20Best%20Practices/CEOS-Service-Discovery-Best-Practices_V1.1.pdf). |
 | **DISC\#3** | Collection and granule metadata obtained via the discovery interfaces should advertise the existence of the corresponding file-level online data access and subfile or pixel-based access services and endpoints (e.g. OGC WCS, WMTS, WCPS, OGC API Maps, OGC API Tiles, etc.). |
-| **DISC\#4** | Collection and granule metadata obtained via the discovery interfaces should advertise the existence of the corresponding authentication endpoint for access to the data (if any). |
-| **DISC\#5** | Resource metadata including keywords should link each keyword to its HTTP URI and to the appropriate thesaurus (i.e. controlled vocabularies). |
-| **DISC\#6** | Keywords from controlled vocabularies that allow lookup of keyword information via [Linked Data principles](https://en.wikipedia.org/wiki/Linked_data), e.g. HTTP URI dereferencing or SPARQL interfaces are preferred. The use of GCMD controlled keywords is encouraged.|
-| **DISC\#7** | Resource metadata shall include the Persistent Identifier (e.g. DOI) of the corresponding resource (if available).   See also [CEOS Persistent Identifier Best Practices](https://ceos.org/document_management/Working_Groups/WGISS/Documents/WGISS%20Best%20Practices/CEOS%20Persistent%20Identifier%20Best%20Practice.pdf).|
+| **DISC\#4** | Granule metadata obtained via the discovery interfaces should include the online data access URL to the granule in native format and to a low resolution representation (i.e. quicklook or thumbnail)in Web-friendly format, e.g. JPEG or PNG.  The low-resolution representation may be a static file or an OGC WMS/WMTS or API Maps/Tiles response.|
+| **DISC\#5** | Collection and granule metadata obtained via the discovery interfaces should advertise the existence of the corresponding authentication endpoint for access to the data (if any). |
+| **DISC\#6** | Resource metadata including keywords should link each keyword to its HTTP URI and to the appropriate thesaurus (i.e. controlled vocabularies). |
+| **DISC\#7** | Keywords from controlled vocabularies that allow lookup of keyword information via [Linked Data principles](https://en.wikipedia.org/wiki/Linked_data), e.g. HTTP URI dereferencing or SPARQL interfaces are preferred. The use of GCMD controlled keywords is encouraged.|
+| **DISC\#8** | Resource metadata shall include the Persistent Identifier (e.g. DOI) of the corresponding resource (if available).   See also [CEOS Persistent Identifier Best Practices](https://ceos.org/document_management/Working_Groups/WGISS/Documents/WGISS%20Best%20Practices/CEOS%20Persistent%20Identifier%20Best%20Practice.pdf).|
 
 ## Data Access
 | **ID** | **Recommendations** |
 | :---- | :---- |
 | **DACC\#1** |  Granule data stored in the cloud should be accessible via the S3 (Simple Storage Service) and HTTP(S) protocols. |
-| **DACC\#2** |  Data access should support file-level access and subfile or pixel-based access.|
-| **DACC\#3** |  Data download interfaces over HTTP should support [`Range Requests`](https://en.wikipedia.org/wiki/Byte_serving) to allow clients to request a portion of a file.  Typical use case: access to a portion of a [Cloud-Optimized GeoTIFF (COG)](https://en.wikipedia.org/wiki/GeoTIFF) file.|
-| **DACC\#4** |  In case a granule consists of many individual assets (files), it shall be possible to access each asset individually or access all subcomponents of a granule with a single request.|
-| **DACC\#5** |  |
+| **DACC\#2** |  Granule data stored in the cloud should preferably be accessible in cloud-optimized formats, e.g. [Zarr](https://en.wikipedia.org/wiki/Zarr_(data_format)) or [Cloud-Optimized GeoTIFF (COG)](https://en.wikipedia.org/wiki/GeoTIFF).|
+| **DACC\#3** |  Data access should support file-level access and subfile or pixel-based access.|
+| **DACC\#4** |  Data download interfaces over HTTP should support [`Range Requests`](https://en.wikipedia.org/wiki/Byte_serving) to allow clients to request a portion of a file.  Typical use case: access to a portion of a [Cloud-Optimized GeoTIFF (COG)](https://en.wikipedia.org/wiki/GeoTIFF) file.|
+| **DACC\#5** |  In case a granule consists of many individual assets (files), it shall be possible to access each asset individually or access all subcomponents of a granule with a single request.|
+| **DACC\#6** |  |
 
 
 
