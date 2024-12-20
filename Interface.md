@@ -19,6 +19,7 @@ Question (YC): what is the expected granularity of a recommendation ? Each time 
 | **DISC\#8** | Resource metadata shall include the Persistent Identifier (e.g. DOI) of the corresponding resource (if available).   See also [CEOS Persistent Identifier Best Practices](https://ceos.org/document_management/Working_Groups/WGISS/Documents/WGISS%20Best%20Practices/CEOS%20Persistent%20Identifier%20Best%20Practice.pdf).|
 | **DISC\#9** | Collection metadata should refer to quality information about the collection, e.g. expressed as [WGISS Data Management and Stewardship Maturity Matrix](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/WGISS%20Data%20Management%20and%20Stewardship%20Maturity%20Matrix.pdf).|
 | **DISC\#10** | Discovery interfaces should be accessible and return responses without requiring authentication. |
+| **DISC\#11** | For facilitating discovery and access, data shall be organised in `collections` according to the principles outlined in the forthcoming `WGISS Data Collections Management Practices White Paper`. |
 
 
 ## Data Access
