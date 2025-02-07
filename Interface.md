@@ -34,7 +34,7 @@ Interfaces allow diversified resources within and across the organization to sea
 
 | **ID** | **Recommendations** |
 | :---- | :---- |
-| **AA\#1** |  Auhthentication interfaces should support the [OpenID Connect](https://openid.net/developers/how-connect-works/) Protocol. |
+| **AA\#1** |  Authentication interfaces should support the [OpenID Connect](https://openid.net/developers/how-connect-works/) Protocol. |
 | **AA\#2** |  HTTP requests (e.g. for data access) subject to authorization shall include the user token with `claims` in [JWT](https://datatracker.ietf.org/doc/html/rfc7519) format returned by the Authentication service with every API request as a bearer token in the HTTP authorization header. |
 
 
