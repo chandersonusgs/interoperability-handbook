@@ -3,8 +3,6 @@
 # **Interface (Accessibility)**
 Interfaces allow diversified resources within and across the organization to seamlessly communicate, discover and exchange data. Interfaces are realized in the form of services and follow standards. Interfaces enable data users to have easy and efficient ways of discovering and accessing data and associated services through the exploitation of standard protocols and the harmonizing of search and data retrieval processes
 
-Question (YC): what is the expected granularity of a recommendation ? Each time a pointer to an existing CEOS document or more fine-grained ?
-
 ## Data Discovery
 
 | **ID** | **Recommendations** |
@@ -31,6 +29,12 @@ Question (YC): what is the expected granularity of a recommendation ? Each time 
 | **DACC\#4** |  Data download interfaces over HTTP should support [`Range Requests`](https://en.wikipedia.org/wiki/Byte_serving) to allow clients to request a portion of a file.  Typical use case: access to a portion of a [Cloud-Optimized GeoTIFF (COG)](https://en.wikipedia.org/wiki/GeoTIFF) file.|
 | **DACC\#5** |  In case a granule consists of many individual assets (files), it shall be possible to access each asset individually or access all subcomponents of a granule with a single request.|
 | **DACC\#6** |  |
+
+## Authentication and Authorization
+
+| **ID** | **Recommendations** |
+| :---- | :---- |
+| **AA\#1** |  HTTP requests (e.g. for data access) subject to authorization shall include the user token with `claims` in [JWT](https://datatracker.ietf.org/doc/html/rfc7519) format returned by the Authentication service with every API request as a bearer token in the HTTP authorization header. |
 
 
 
