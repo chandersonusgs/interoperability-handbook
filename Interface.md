@@ -1,8 +1,7 @@
+# Interface (Accessibility)
+
 [Previous](Architecture.md) | [Table of contents](README.md) | [Next](Quality.md)
 ***
-# **Interface (Accessibility)**
-Interfaces allow diversified resources within and across the organization to seamlessly communicate, discover and exchange data. Interfaces are realized in the form of services and follow standards. Interfaces enable data users to have easy and efficient ways of discovering and accessing data and associated services through the exploitation of standard protocols and the harmonizing of search and data retrieval processes
-
 ## Data Discovery
 
 | **ID** | **Recommendations** |
@@ -18,7 +17,6 @@ Interfaces allow diversified resources within and across the organization to sea
 | **DISC\#9** | Collection metadata should refer to quality information about the collection, e.g. expressed as [WGISS Data Management and Stewardship Maturity Matrix](https://ceos.org/document_management/Working_Groups/WGISS/Interest_Groups/Data_Stewardship/White_Papers/WGISS%20Data%20Management%20and%20Stewardship%20Maturity%20Matrix.pdf).|
 | **DISC\#10** | Discovery interfaces should be accessible and return responses without requiring authentication. |
 | **DISC\#11** | For facilitating discovery and access, data shall be organised in `collections` according to the principles outlined in the forthcoming `WGISS Data Collections Management Practices White Paper`. |
-
 
 ## Data Access
 | **ID** | **Recommendations** |
@@ -36,8 +34,11 @@ Interfaces allow diversified resources within and across the organization to sea
 | :---- | :---- |
 | **AA\#1** |  Authentication interfaces should support the [OpenID Connect](https://openid.net/developers/how-connect-works/) Protocol. |
 | **AA\#2** |  HTTP requests (e.g. for data access) subject to authorization shall include the user token with `claims` in [JWT](https://datatracker.ietf.org/doc/html/rfc7519) format returned by the Authentication interface with every API request as a bearer token in the HTTP authorization header. |
-
-
+=======
+Interfaces allow diversified resources within and across the organization to seamlessly communicate,
+discover and exchange data. Interfaces are realized in the form of services and follow standards.
+Interfaces enable data users to have easy and efficient ways of discovering and accessing data and associated
+services through the exploitation of standard protocols and the harmonizing of search and data retrieval processes
 
 ***
 [Previous](Architecture.md) | [Table of contents](README.md) | [Next](Quality.md)
