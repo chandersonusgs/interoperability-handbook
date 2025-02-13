@@ -30,7 +30,9 @@ The interoperability factors assemble certain, hopefully related, competencies t
 desired or required in a project or process. Most CEOS activities are targeted at enhancing interoperability, they all should scrutinize
 their work with respect to the framework factors.
 
-The interoperability factors assemble certain, hopefully related, competencies that should be dwelled on whenever interoperability is desired or required in a project or process. Most CEOS activities are targeted at enhancing interoperability, they all should scrutinize their work with respect to the framework factors.
+The interoperability factors assemble certain, hopefully related, competencies that should be dwelled on whenever
+interoperability is desired or required in a project or process. Most CEOS activities are targeted at enhancing
+interoperability, they all should scrutinize their work with respect to the framework factors.
 
 ***
 [Previous](Framework.md) | [Table of contents](README.md) | [Next](Vocabulary.md)
