@@ -16,5 +16,9 @@ Enhancing Interoperability of data and services between different Earth Observat
 - [**6. Quality**](Quality.md)
 - [**7. Policy**](Policy.md)
 
+## License
+
+Content in this repository is accessible under the [CC-BY 4.0 license](LICENSE).
+
 ***
 [NEXT](Introduction.md)
