@@ -3,7 +3,7 @@
 [Previous](Framework.md) | [Table of contents](README.md) | [Next](Architecture.md)
 ***
 
-Vocabulary also termed as semantics helps in providing a consistent terminology for communication between different stakeholders including humans and machines for acquisition,
+Vocabulary, also termed as semantics, helps in providing a consistent terminology for communication between different stakeholders including humans and machines for acquisition,
 processing, archival, dissemination and analysis of Earth Observation data. A common and consistent vocabulary ensures that the end user uses the same term to mean the same thing.
 Vocabulary acts as a means to support interdisciplinary collaboration between people by helping them become aware of when they may be using the same word in different ways or
 different words in the same way. A controlled vocabulary is a prescribed list of terms, each representing a concept while a structured vocabulary is an organized set of terms
