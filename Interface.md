@@ -44,3 +44,15 @@ services through the exploitation of standard protocols and the harmonizing of s
 
 ***
 [Previous](Architecture.md) | [Table of contents](README.md) | [Next](Quality.md)
+
+## Technologies
+
+A range of specific technologies including software applications and service specifications are currently in wide use and can be used to
+access collections of data that are published using them. The list below includes examples of these technologies.
+
+| **ID**       | **Recommendations**                                                                                                                                                                   |
+| :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **TECH\#1** | The CEOS supported [Open Data Cube](https://opendatacube.org) can be taken as a reference Datacube implementation |
+| **TECH\#1** | Collection and Granule metadata should be accessible in a REST API that implements the OGC API for Features, such as the [STAC API](https://github.com/radiantearth/stac-api-spec) |
+| **TECH\#2** | Datacubes can be created on the fly using client applications working against a REST API, for example, using [odc-stac](https://github.com/opendatacube/odc-stac) |
+| **TECH\#4** | [OGC APIs](https://ogcapi.ogc.org/) should be used to publish web services for visualisation and data access |
