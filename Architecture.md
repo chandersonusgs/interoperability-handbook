@@ -13,6 +13,7 @@ Following Architecture has impact on Interoperability:
 2) Metadata Architecture
 3) Cloud Architecture
 4) Publishing Architecture
+5) Data Analytics Architecture
 
 ## Data Architecture
 
@@ -86,6 +87,39 @@ are aimed at facilitating both access to data as well as maintaining a replica o
 | **PUBLISH\#2** | Each data collection that is published as a publicly-accessible product should include a public granule-level notification including for when it is added, updated or deleted/archived. This should be able to be filtered by location. |
 | **PUBLISH\#3** | A collection should have a full listing of all available granules in a standard format, preferably cloud optimized. [STAC-geoparquet](https://stac-utils.github.io/stac-geoparquet/latest/) is used by some providers currently         |
 | **PUBLISH\#4** | Data licensing should be clear and adhere to national policies, with a strong preference for standard open licenses such as Creative Commons                                                                                            |
+## Analytics Architecture
+
+Data Analytics architecture in an organization provides capability to store, analyze and visualize the data. As a typical Earth Observation data analytics require a large volume of time series data and hence
+it is necessary to support interoperability in the analytics architecture using following recommendations.
+
+### Analysis Ready Data
+
+Analysis Ready Data (ARD) are starting point for interoperability in analysis and hence Data Providers are encouraged to develop ARD.
+
+#### ARD Recommendations
+
+| **ID**     | **Recommendations**                                                                                                                                                                |
+| :--------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ARD\#1** | CEOS ARD Framework should be used as a starting point for development of Analysis Ready Data                                                                                       |
+| **ARD\#2** | CEOS Product Family Specifications (PFS) should be used for development of ARD products. In case if a new ARD is to be developed, use PFS template and submit to CEOS for approval |
+| **ARD\#3** | CEOS ARD compliance of the product requires two level of assessments, first is self assessment (CEOS ARD Self Assessment Guide)  and second is peer review by CEOS Experts         |
+| **ARD\#4** |                                                                                                                                                                                    |
+| **ARD\#5** |                                                                                                                                                                                    |
+
+### Datacube
+
+Data Cube provide capability to pack a collection of data and provide capability for fast access and analysis.
+
+#### Datacube Recommendations
+
+| **ID**       | **Recommendations**                                                                                                                                                                   |
+| :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **DCUBE\#1** | The CEOS supported [Open Data Cube](https://opendatacube.org) can be taken as a reference for Datacube implementation                                                                 |
+| **DCUBE\#2** | Data cubes should support spatial and/or temporal dimensions and capability for publishing available variables/properties as metadata                                                 |
+| **DCUBE\#3** | Data cubes should abstract the underlying data storage architecture to support hybrid data cubes and interoperability among different types of data cubes                             |
+| **DCUBE\#4** | Data cube may contain raw sensor data, analysis ready data or decision ready information. Analysis Reay Data  should be preferred to avoid pre-processing overheads and fast analysis |
+| **DCUBE\#5** | Data cubes should be able to publish the supported pre-built analysis functions                                                                                                       |
+| **DCUBE\#6** | Data Cubes should provide REST API and OGC web services based access for easy integration of end user applications                                                                    |
 
 ***
 [Previous](Vocabulary.md) | [Table of contents](README.md) | [Next](Interface.md)
