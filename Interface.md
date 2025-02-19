@@ -42,5 +42,13 @@ services through the exploitation of standard protocols and the harmonizing of s
 | **AUTH\#1** |  Authentication interfaces should support the [OpenID Connect](https://openid.net/developers/how-connect-works/) Protocol. |
 | **AUTH\#2** |  HTTP requests (e.g. for data access) subject to authorization shall include the user token with `claims` in [JWT](https://datatracker.ietf.org/doc/html/rfc7519) format returned by the Authentication interface with every API request as a bearer token in the HTTP authorization header. |
 
+
+Discussion Points/questions for the group:
+
+- Do we want to recommend that Agencies document the API (interfaces) consumed by their users (Discovery, Data Access etc.) via executable Jupyter Notebooks ?
+- Do we want to recommend that Notebooks should be prepared in-line with the [CEOS Jypyter Best Practices](https://ceos.org/document_management/Working_Groups/WGISS/Documents/WGISS%20Best%20Practices/CEOS_JupterNotebooks_Best%20Practice_v1.1.pdf) ?
+- Do we want to recommend that Notebooks should have embedded metadata to facilitate their discover as per Annex C of [CEOS Jypyter Best Practices](https://ceos.org/document_management/Working_Groups/WGISS/Documents/WGISS%20Best%20Practices/CEOS_JupterNotebooks_Best%20Practice_v1.1.pdf) ?
+- Do we want to recommend that interfaces are based on RESTful principles and prefer JSON payloads over XML payloads ?
+
 ***
 [Previous](Architecture.md) | [Table of contents](README.md) | [Next](Quality.md)
