@@ -17,6 +17,7 @@ Calibration is the process of quantitatively defining a system’s response to k
 | **CALVAL\#2** | CEOS/WGCV developed Data Quality Assurance Strategy should be followed for ensuring interoperability |
 | **CALVAL\#3** | CEOS endorsed Cal/Val sites should be used for satellite cross-comparison |
 | **CALVAL\#4** |  |
+
 | **CALVAL\#5** |  |
 | **CALVAL\#6** |  |
 
